@@ -279,7 +279,7 @@ $n-1$ = Bessel's correction; $x_{i}$ = observation value; $\overline x$ = sample
 * https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348
 
 ---
-the code bel
+the code below can be ignored and serves only my worfklow
 
 
 ```python
@@ -292,7 +292,7 @@ the code bel
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
-    [NbConvertApp] Writing 9104 bytes to README.md
+    [NbConvertApp] Writing 9122 bytes to README.md
 
 
 
