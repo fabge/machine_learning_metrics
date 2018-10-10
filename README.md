@@ -1,10 +1,9 @@
----
-layout: blog
-title: Machine learning metrics
----
-reference: https://github.com/Jam3/math-as-code
+
+# Machine Learning Metrics
+
 This blogpost is a growing collection of different metrics, translated from the math notation to code. I try to keep it as concise and efficient as possible.  
-Don't hesitate to contact me for any mistakes found or suggestions.
+Don't hesitate to contact me for any mistakes found or suggestions.  
+Inspiration and reference:  https://github.com/Jam3/math-as-code
 
 
 ```python
@@ -47,7 +46,7 @@ plt.scatter(x,y)
 
 
 
-![png](README_files/README_6_1.png)
+![png](README_files/README_5_1.png)
 
 
 # Evaluation metrics
@@ -205,7 +204,7 @@ plt.plot(x, [sigmoid(num) for num in y])
 
 
 
-![png](README_files/README_31_1.png)
+![png](README_files/README_30_1.png)
 
 
 **tanh**
@@ -228,7 +227,7 @@ plt.plot(x, tanh(y))
 
 
 
-![png](README_files/README_34_1.png)
+![png](README_files/README_33_1.png)
 
 
 **ReLU**
@@ -251,7 +250,7 @@ plt.plot(x, [relu(num) for num in y])
 
 
 
-![png](README_files/README_37_1.png)
+![png](README_files/README_36_1.png)
 
 
 # Other statistical measures
@@ -279,6 +278,9 @@ $n-1$ = Bessel's correction; $x_{i}$ = observation value; $\overline x$ = sample
 
 * https://towardsdatascience.com/probability-concepts-explained-bayesian-inference-for-parameter-estimation-90e8930e5348
 
+---
+the code bel
+
 
 ```python
 !jupyter nbconvert --to markdown machine_learning_metrics.ipynb --output README.md
@@ -290,5 +292,19 @@ $n-1$ = Bessel's correction; $x_{i}$ = observation value; $\overline x$ = sample
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
     [NbConvertApp] Making directory README_files
-    [NbConvertApp] Writing 7753 bytes to README.md
+    [NbConvertApp] Writing 9104 bytes to README.md
+
+
+
+```python
+!jupyter nbconvert --to markdown machine_learning_metrics.ipynb --output ../../fabiange/_posts/2018-09-03-machine_learning_metrics.md
+```
+
+    [NbConvertApp] Converting notebook machine_learning_metrics.ipynb to markdown
+    [NbConvertApp] Support files will be in ../../fabiange/_posts/2018-09-03-machine_learning_metrics_files/
+    [NbConvertApp] Making directory ../../fabiange/_posts/2018-09-03-machine_learning_metrics_files/../../fabiange/_posts
+    [NbConvertApp] Making directory ../../fabiange/_posts/2018-09-03-machine_learning_metrics_files/../../fabiange/_posts
+    [NbConvertApp] Making directory ../../fabiange/_posts/2018-09-03-machine_learning_metrics_files/../../fabiange/_posts
+    [NbConvertApp] Making directory ../../fabiange/_posts/2018-09-03-machine_learning_metrics_files/../../fabiange/_posts
+    [NbConvertApp] Writing 8584 bytes to ../../fabiange/_posts/2018-09-03-machine_learning_metrics.md
 
